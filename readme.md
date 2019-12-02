@@ -5,7 +5,7 @@
 IBM Multicloud Manager is the enterprise-grade multicloud management solution for Kubernetes. Multicloud Manager improves visibility, security and governance, and automation across all Kubernetes environments.
 
 Below diagram represents a generic reference architecture for multi cloud management for k8s cluster.
-![Alt Text](\images\multicluster-k8s-mgmt.jpg)
+![Alt Text](/images/multicluster-k8s-mgmt.jpg)
 
 The **IBM Cloud Pak for Multicloud Management**, running on Red Hat Red Hat® OpenShift®, provides consistent visibility across  multiple clusters, governance, event management, application management, infrastructure management and automation from on premises to the edge. The IBM Cloud Pak for Multicloud Management includes IBM Multicloud Manager, IBM Cloud App Management, IBM Cloud Automation Manager, and IBM Cloud Event Management. IBM Multicloud Manager provides application and cluster visibility across the enterprise to any public or private cloud.
 * IBM Multicloud Manager - Provides user visibility, application-centric management (governance, deployments, health, operations), and policy-based compliance across clouds and kubernetes clusters.
@@ -28,4 +28,4 @@ Main conponents of Multicloud Manager:
 
 The below reference diagram shows IBM MCM managing multiple clusters. In the Datacenter, it is hosted on top of Openshift container platform and manages the local cluster. It also manages VMware PKS in the branch office and Azure AKS in the public cloud. The MCM controller (Hub cluster) communicates with the klusterlet (Managed cluster) using port 443. The managed cluster communicates with Kubernetes API server port on the hub cluster over port 8001 and with image resistry server over port 8500.
 
-![Alt Text](\images\ibm-mcm-k8s-ra.jpg)
+![Alt Text](/images/ibm-mcm-k8s-ra.jpg)
